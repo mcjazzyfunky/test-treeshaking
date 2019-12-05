@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "rollup": "rollup -c rollup.config.js",
+    "webpack": "webpack",
+    "build": "npm run rollup && npm run webpack"
+  },
+  "devDependencies": {
+    "compression-webpack-plugin": "^3.0.0",
+    "dyo": "^1.0.1",
+    "rollup": "^1.27.8",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-gzip": "^2.2.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.2",
+    "rollup-plugin-uglify": "^6.0.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
