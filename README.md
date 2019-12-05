@@ -4,7 +4,7 @@
 
 ```
 git clone https://github.com/mcjazzyfunky/test-treeshaking.git
-cd test-treshaking
+cd test-treeshaking
 npm install
 npm build
 ls -lh dist
