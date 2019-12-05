@@ -6,6 +6,6 @@
 git clone https://github.com/mcjazzyfunky/test-treeshaking.git
 cd test-treeshaking
 npm install
-npm build
+npm run build
 ls -lh dist
 ```
